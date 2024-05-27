@@ -2,6 +2,29 @@
 <html lang="id" data-bs-theme="dark">
 
 <head>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCcxO0PfBNdKFvhXiR2htwewT6gvQjcp8I",
+          authDomain: "wedding-invitation-3de32.firebaseapp.com",
+          projectId: "wedding-invitation-3de32",
+          storageBucket: "wedding-invitation-3de32.appspot.com",
+          messagingSenderId: "39690959827",
+          appId: "1:39690959827:web:d01f12e3e2b8eb1de98d26",
+          measurementId: "G-RPHVKY024H"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
     <!-- Common Tag -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
