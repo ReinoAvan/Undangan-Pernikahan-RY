@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "wedding-invitation-906a8"
-  }
+    "default": "wedding-invitation-3de32",
+    "dev": "wedding-invitation-3de32"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
